@@ -6,7 +6,7 @@ Projeto desenvolvido durante o curso de HTML e CSS do Curso em Vídeo. Esta pág
 
 Para acessar o projeto, basta clicar no link abaixo.
 
-[link]
+https://josecarlos67.github.io/Desafio-Cordel/
 
 ## 🛠️ Tecnologias utilizadas durante o desenvolvimento
 
