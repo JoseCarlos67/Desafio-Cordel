@@ -48,6 +48,10 @@ section {
     font-size: 2.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -57,15 +61,31 @@ section.normal {
     color: black;
 }
 
+section.normal > p {
+    margin-left: 5px;
+}
+
 section.imagem {
     background-color: gray;
     color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
     display: inline-block;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer {
